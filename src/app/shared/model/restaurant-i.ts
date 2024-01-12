@@ -3,6 +3,7 @@ export interface RestaurantI {
   address: string;
   lat: number;
   lng: number;
-  category: string;
+  category: string[];
+  score : number;
 }
 
